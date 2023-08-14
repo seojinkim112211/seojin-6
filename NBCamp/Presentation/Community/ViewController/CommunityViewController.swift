@@ -11,8 +11,11 @@ class CommunityViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+		setTitle()
     }
+	
+	private func setTitle() {
+		title = "커뮤니티"
+	}
 
 }
