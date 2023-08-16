@@ -22,6 +22,7 @@ class ProfileViewController: UIViewController {
         let timerSelector:Selector = #selector(ViewController.updateTime)
         let interval = 1.0
         var count = 0
+    
         @IBOutlet weak var IblTimer: UILabel!
         
         override func viewDidLoad(){
